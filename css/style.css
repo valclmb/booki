@@ -116,6 +116,9 @@ header section p {
 #searchIcon {
     display: none;
 }
+#searchIcon:hover, #searchButton:hover {
+    opacity: 0.8;
+}
     /* FILTER  */
 #filter {
     display: flex;
@@ -136,7 +139,9 @@ header section p {
     margin: 0;
 }
 #filter li {
+    position: relative;
     margin: 5px 15px;
+    padding: 11px 20px 11px 50px;
     border: 2px solid var(--color-bg-grey);
     border-radius: 25px;
 }
@@ -147,14 +152,14 @@ header section p {
 }
 
 #filter i {
+    position: absolute;
+    top: 0;
+    left: -3px;
     z-index: 5;
-    padding: 12px;
+    padding: 13px;
     background-color: var(--color-light-blue);
     color: var(--color-blue);
     border-radius: 25px;
-}
-#filter li span {
-    padding: 10px 20px;
 }
     /* INFORMATION */
 #information {
