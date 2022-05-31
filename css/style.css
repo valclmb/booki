@@ -222,6 +222,9 @@ Hebergement
     border-radius: 15px;
     box-shadow: #dbdbdb 1px 1px 12px;
 }
+#cardsHebergement section:hover {
+    background-color: #d3d3d3;
+}
 #cardsHebergement a {
     width: 100%;
 }
@@ -294,6 +297,9 @@ Populaire
     border-radius: 15px;
     margin-top: 35px;
     box-shadow: #c5c5c5 1px 1px 8px;
+}
+#cardsPopulaire section:hover {
+    background-color: #d3d3d3;
 }
 #cardsPopulaire img  {
     width: 160px;
