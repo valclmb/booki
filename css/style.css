@@ -459,11 +459,16 @@ FOOTER
         justify-content: stretch;
 
     }
+    #searchBar button#searchIcon {
+        border-radius: 10px;
+        margin-left: -20px;
+    }
     #searchButton{
         display: none;
     }
     #searchIcon {
         display: block;
+
     }
     #filter {
         flex-direction: column;
